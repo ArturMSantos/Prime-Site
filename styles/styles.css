@@ -1,0 +1,49 @@
+/*Estilo geral */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    front-family: 
+}
+
+
+body{
+    background-color: hsl(36, 100%, 99%);
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+/*Estilo do cabeçario*/
+
+header{
+    padding: 60px 4%;
+
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header a{
+    color: hsl(236, 13%, 42%);  
+
+}
+
+header nav ul{
+    list-style-type: none;
+
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
